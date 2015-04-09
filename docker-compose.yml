@@ -11,6 +11,7 @@ logstash:
     - patterns:/etc/logstash/conf.d/patterns
   ports:
     - "5000:5000/udp"  
+    - "5000:5000"  
   links:
     - elasticsearch
 kibana4:
